@@ -21,8 +21,8 @@ puts "Acessar elemento no índice 1: array_list[1] => #{array_list[1]}"
 puts "------------------------------------------------------------------------\n\n"
 
 # Atualizando o valor de um elemento no array
-array_list[1] = 50000
-puts "Atualizando o valor do índice 1: array_list[1] = 50000"
+array_list[1] = 50_000
+puts 'Atualizando o valor do índice 1: array_list[1] = 50000'
 puts "Array atualizado: #{array_list}"
 puts "------------------------------------------------------------------------\n\n"
 
