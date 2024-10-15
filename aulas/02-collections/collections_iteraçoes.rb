@@ -1,7 +1,7 @@
 # Collections - Iterações
 
 # each do array
-names_list = ["Annie", "Mikasa", "Sasha", "Historia"]
+names_list = %w[Annie Mikasa Sasha Historia]
 
 puts "Iterando sobre o array 'names_list' com 'each':"
 names_list.each do |name_character|
@@ -12,14 +12,14 @@ puts "------------------------------------------------------------------------\n
 
 # each do hash
 annie_leonhart = {
-  nome: "Annie Leonhart",
+  nome: 'Annie Leonhart',
   idade: 16,
-  titã: "Titã Fêmea",
-  afiliacao: "Exército de Marley",
+  titã: 'Titã Fêmea',
+  afiliacao: 'Exército de Marley',
   habilidades: [
-    "Combate corpo a corpo",
-    "Regeneração rápida",
-    "Endurecimento"
+    'Combate corpo a corpo',
+    'Regeneração rápida',
+    'Endurecimento'
   ]
 }
 
@@ -32,7 +32,7 @@ end
 puts "------------------------------------------------------------------------\n\n"
 
 # map com array
-names_list_snk = ["Annie", "Mikasa", "Sasha", "Historia"]
+names_list_snk = %w[Annie Mikasa Sasha Historia]
 
 puts "Usando 'map' no array 'names_list_snk' para criar 'new_array_names':"
 
@@ -69,20 +69,20 @@ puts "Números selecionados: #{selection}\n\n"
 
 # select no hash
 annie_hash = {
-  nome: "Annie Leonhart",
+  nome: 'Annie Leonhart',
   idade: 16,
-  titã: "Titã Fêmea",
-  afiliacao: "Exército de Marley",
+  titã: 'Titã Fêmea',
+  afiliacao: 'Exército de Marley',
   habilidades: [
-    "Combate corpo a corpo",
-    "Regeneração rápida",
-    "Endurecimento"
+    'Combate corpo a corpo',
+    'Regeneração rápida',
+    'Endurecimento'
   ]
 }
 
 puts "Usando 'select' no hash 'annie_hash' para selecionar a chave 'habilidades':"
 
-skills_selected = annie_hash.select do |key, value|
+skills_selected = annie_hash.select do |key, _value|
   key == :habilidades
 end
 

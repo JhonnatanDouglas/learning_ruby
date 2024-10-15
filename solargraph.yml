@@ -1,0 +1,9 @@
+include:
+  - ./
+exclude:
+  - vendor
+  - .git
+  - log
+  - tmp
+  - coverage
+  - node_modules

@@ -30,16 +30,16 @@ puts array_list[3]
 
 symbol_test_1 = :ruby_symbol
 symbol_test_2 = :ruby_symbol
-puts symbol_test_1.class 
-puts symbol_test_1.object_id 
-puts symbol_test_2.object_id 
-puts 
+puts symbol_test_1.class
+puts symbol_test_1.object_id
+puts symbol_test_2.object_id
+puts
 
-# Hash 
+# Hash
 
-exemple_hash = {course: "ruby", lenguage: "pt-BR", username: "nome sobrenome"}
+exemple_hash = { course: 'ruby', lenguage: 'pt-BR', username: 'nome sobrenome' }
 puts exemple_hash[:course]
-puts 
+puts
 
 # ---------------------------------------------------------
 
@@ -64,7 +64,7 @@ puts
 
 # Entrada e Saída
 
-# print "Informe seu nome: " 
+# print "Informe seu nome: "
 # name = gets.chomp
 
 # print "#{name}, quantos anos voce tem: "

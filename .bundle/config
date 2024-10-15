@@ -1,0 +1,3 @@
+---
+BUNDLE_PATH: "lib/"
+BUNDLE_DESABLE_SHARED_GEMS: "true"
